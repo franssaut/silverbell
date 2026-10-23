@@ -49,7 +49,9 @@ export default function LocationSection() {
                   <MapPin className="w-4 h-4 text-red-500 shrink-0" />
                   <div>
                     <span className="font-semibold block">{PROJECT_DETAILS.location}</span>
-                    <span className="text-[11px] text-slate-500">Plus Code: {PROJECT_DETAILS.plusCode} (Kec. Sagulung, Batam)</span>
+                    <span className="text-[11px] text-slate-600 font-mono block mt-0.5">
+                      Koordinat: {PROJECT_DETAILS.coordinatesDMS} • Plus Code: {PROJECT_DETAILS.plusCode}
+                    </span>
                   </div>
                 </div>
                 <a
@@ -101,9 +103,9 @@ export default function LocationSection() {
                 <QrCode className="w-6 h-6" />
               </div>
               <div className="text-xs">
-                <span className="font-bold text-gold-300 block">Titik Plus Code: {PROJECT_DETAILS.plusCode}</span>
+                <span className="font-bold text-gold-300 block font-mono">1°01'32.5"N 104°00'07.7"E</span>
                 <span className="text-slate-300">
-                  Tembesi, Sagulung, Batam. Klik "Buka Titik di Google Maps" untuk rute navigasi akurat atau minta shareloc WhatsApp Mas Frans.
+                  Tembesi, Sagulung, Batam (Plus Code: 22G2+7VC). Klik "Buka Titik di Google Maps" untuk rute navigasi akurat atau minta shareloc WhatsApp Mas Frans.
                 </span>
               </div>
             </div>
