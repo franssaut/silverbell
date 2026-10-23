@@ -12,14 +12,14 @@ export default function FloorPlanViewer() {
       subtitle: 'Ideal untuk pasangan muda, keluarga baru, atau hunian investasi pertama',
       image: '/images/IMG-20260827-WA0011.jpg',
       rooms: [
-        { name: 'Carport & Taman Depan', size: '3.0 x 4.5 m', desc: 'Rabat beton rapi dengan kapasitas 1 mobil & motor' },
-        { name: 'Teras Depan', size: '3.0 x 1.2 m', desc: 'Area sambut berkanopi teduh untuk bersantai sore' },
-        { name: 'Ruang Tamu & Keluarga', size: '3.0 x 3.5 m', desc: 'Konsep open-space dengan plafon tinggi & sirkulasi sejuk' },
-        { name: 'Kamar Tidur Utama', size: '3.0 x 3.0 m', desc: 'Bukaan jendela lebar menghadap taman belakang' },
-        { name: 'Kamar Tidur Anak', size: '3.0 x 2.8 m', desc: 'Pencahayaan alami dari sisi depan' },
-        { name: 'Dapur & Ruang Makan', size: '3.0 x 2.5 m', desc: 'Meja dapur keramik lengkap dengan kitchen sink' },
-        { name: 'Kamar Mandi / WC', size: '1.5 x 1.5 m', desc: 'Kloset duduk modern, shower & keramik lantai anti selip' },
-        { name: 'Taman / Sisa Tanah Belakang', size: '3.0 x 2.0 m', desc: 'Sirkulasi udara segar & area jemur / perluasan masa depan' }
+        { name: 'Carport & Taman Depan', desc: 'Rabat beton rapi dengan kapasitas 1 mobil & motor' },
+        { name: 'Teras Depan', desc: 'Area sambut berkanopi teduh untuk bersantai sore' },
+        { name: 'Ruang Tamu & Keluarga', desc: 'Konsep open-space dengan plafon tinggi & sirkulasi sejuk' },
+        { name: 'Kamar Tidur Utama', desc: 'Bukaan jendela lebar menghadap taman belakang' },
+        { name: 'Kamar Tidur Anak', desc: 'Pencahayaan alami dari sisi depan' },
+        { name: 'Dapur & Ruang Makan', desc: 'Meja dapur keramik lengkap dengan kitchen sink' },
+        { name: 'Kamar Mandi / WC', desc: 'Kloset duduk modern, shower & keramik lantai anti selip' },
+        { name: 'Taman / Sisa Tanah Belakang', desc: 'Sirkulasi udara segar & area jemur / perluasan masa depan' }
       ]
     },
     '3br': {
@@ -27,13 +27,13 @@ export default function FloorPlanViewer() {
       subtitle: 'Dirancang cerdas untuk keluarga berkembang yang membutuhkan kamar ekstra',
       image: '/images/IMG-20260731-WA0030.jpg',
       rooms: [
-        { name: 'Carport & Teras', size: '3.0 x 4.0 m', desc: 'Akses kendaraan langsung dengan kanopi modern' },
-        { name: 'Ruang Tamu & Keluarga', size: '3.0 x 3.5 m', desc: 'Tata ruang efisien untuk kehangatan kumpul keluarga' },
-        { name: 'Kamar Tidur Utama', size: '3.0 x 3.0 m', desc: 'Privasi maksimal untuk kepala keluarga' },
-        { name: 'Kamar Tidur 2', size: '3.0 x 2.5 m', desc: 'Kamar anak dengan bukaan sirkulasi udara' },
-        { name: 'Kamar Tidur 3', size: '3.0 x 2.5 m', desc: 'Bisa difungsikan sebagai ruang kerja / kamar tamu' },
-        { name: 'Dapur Minimalis', size: '2.5 x 2.0 m', desc: 'Efisien dan mudah dijangkau dari ruang makan' },
-        { name: 'Kamar Mandi / WC', size: '1.5 x 1.5 m', desc: 'Sanitair lengkap berstandar modern' }
+        { name: 'Carport & Teras', desc: 'Akses kendaraan langsung dengan kanopi modern' },
+        { name: 'Ruang Tamu & Keluarga', desc: 'Tata ruang efisien untuk kehangatan kumpul keluarga' },
+        { name: 'Kamar Tidur Utama', desc: 'Privasi maksimal untuk kepala keluarga' },
+        { name: 'Kamar Tidur 2', desc: 'Kamar anak dengan bukaan sirkulasi udara' },
+        { name: 'Kamar Tidur 3', desc: 'Bisa difungsikan sebagai ruang kerja / kamar tamu' },
+        { name: 'Dapur Minimalis', desc: 'Efisien dan mudah dijangkau dari ruang makan' },
+        { name: 'Kamar Mandi / WC', desc: 'Sanitair lengkap berstandar modern' }
       ]
     }
   };
@@ -115,11 +115,11 @@ export default function FloorPlanViewer() {
 
             <div className="mt-4 flex items-center justify-between text-xs text-slate-400 px-2">
               <span>{currentPlan.title}</span>
-              <span className="text-gold-400">Skala Arsitektur Akurat</span>
+              <span className="text-gold-400">Tata Ruang Optimal & Fleksibel</span>
             </div>
           </div>
 
-          {/* Interactive Room Breakdown & Dimensions (Right) */}
+          {/* Interactive Room Breakdown (Right) */}
           <div className="lg:col-span-5 space-y-4">
             <div>
               <span className="text-xs font-bold text-brand-700 uppercase tracking-widest block mb-1">
@@ -151,9 +151,6 @@ export default function FloorPlanViewer() {
                         {idx + 1}
                       </span>
                       {room.name}
-                    </span>
-                    <span className="text-[11px] font-mono font-semibold text-brand-700 bg-white px-2 py-0.5 rounded-md border border-brand-200">
-                      {room.size}
                     </span>
                   </div>
                   <p className="text-[11px] text-slate-600 pl-7">{room.desc}</p>

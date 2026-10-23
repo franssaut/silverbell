@@ -38,7 +38,7 @@ export const UNIT_TYPES = [
     cadBlueprint: "/images/IMG-20260827-WA0011.jpg",
     specs: {
       luasBangunan: "30 m² (Expandable)",
-      luasTanah: "60 m² (6 x 10 m)",
+      luasTanah: "60 m²",
       kamarTidur: "2 Kamar Tidur (Tersedia opsi 3 Kamar Tidur)",
       kamarMandi: "1 Kamar Mandi",
       carport: "1 Mobil + 1 Motor",
@@ -72,7 +72,7 @@ export const UNIT_TYPES = [
     cadBlueprint3BR: "/images/IMG-20260731-WA0030.jpg",
     specs: {
       luasBangunan: "36 m² (Expandable)",
-      luasTanah: "72 m² (6 x 12 m)",
+      luasTanah: "72 m²",
       kamarTidur: "2 Kamar Tidur (Tersedia opsi 3 Kamar Tidur)",
       kamarMandi: "1 Kamar Mandi Modern",
       carport: "1 Mobil Besar + Taman Depan",
