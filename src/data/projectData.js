@@ -5,7 +5,12 @@ export const PROJECT_DETAILS = {
   developer: "CIPTA Group",
   developerUrl: "https://www.ciptagroup.co.id",
   developerInstagram: "@ciptagroup.id",
-  location: "Jl. Trans Barelang, Tembesi, Batam, Kepulauan Riau",
+  location: "22G2+7VC, Tembesi, Kec. Sagulung, Kota Batam, Kepulauan Riau 29472",
+  plusCode: "22G2+7VC",
+  coordinates: {
+    lat: 1.025688,
+    lng: 104.002141
+  },
   startingPrice: 200000000,
   formattedStartingPrice: "Rp 200 Jutaan",
   promoHighlights: [
@@ -21,7 +26,7 @@ export const PROJECT_DETAILS = {
   formattedPhone: "+62 823-9105-9216",
   marketingName: "Frans (Rumah Batam)",
   whatsappDefaultMsg: "Halo Mas Frans (Rumah Batam), saya tertarik dengan informasi unit Cluster Silverbell, promo gratis AJB/SHGB/BPHTB, dan jadwal survey lokasi.",
-  googleMapsUrl: "https://maps.google.com/?q=Cluster+Silverbell+Tembesi+Batam"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=1.025688,104.002141"
 };
 
 export const UNIT_TYPES = [

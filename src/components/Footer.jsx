@@ -85,7 +85,7 @@ export default function Footer() {
             <div className="space-y-2.5 text-xs">
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-gold-400 shrink-0 mt-0.5" />
-                <span>Jl. Trans Barelang (5 Menit dari Bundaran Simpang Barelang), Tembesi, Kota Batam.</span>
+                <span>22G2+7VC, Tembesi, Kec. Sagulung, Kota Batam, Kepulauan Riau 29472.</span>
               </div>
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-emerald-400 shrink-0" />

@@ -47,16 +47,19 @@ export default function LocationSection() {
               <div className="mt-4 pt-4 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3">
                 <div className="flex items-center gap-2 text-xs text-slate-700">
                   <MapPin className="w-4 h-4 text-red-500 shrink-0" />
-                  <span className="font-semibold">{PROJECT_DETAILS.location}</span>
+                  <div>
+                    <span className="font-semibold block">{PROJECT_DETAILS.location}</span>
+                    <span className="text-[11px] text-slate-500">Plus Code: {PROJECT_DETAILS.plusCode} (Kec. Sagulung, Batam)</span>
+                  </div>
                 </div>
                 <a
                   href={PROJECT_DETAILS.googleMapsUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-gold-400 font-bold text-xs transition shadow"
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-gold-400 font-bold text-xs transition shadow shrink-0"
                 >
                   <Navigation className="w-3.5 h-3.5" />
-                  <span>Buka di Google Maps</span>
+                  <span>Buka Titik di Google Maps</span>
                   <ExternalLink className="w-3 h-3 text-slate-400" />
                 </a>
               </div>
@@ -98,9 +101,9 @@ export default function LocationSection() {
                 <QrCode className="w-6 h-6" />
               </div>
               <div className="text-xs">
-                <span className="font-bold text-gold-300 block">Ingin Survey Mandiri?</span>
+                <span className="font-bold text-gold-300 block">Titik Plus Code: {PROJECT_DETAILS.plusCode}</span>
                 <span className="text-slate-300">
-                  Gunakan Google Maps atau minta shareloc langsung dari tim marketing kami via WhatsApp.
+                  Tembesi, Sagulung, Batam. Klik "Buka Titik di Google Maps" untuk rute navigasi akurat atau minta shareloc WhatsApp Mas Frans.
                 </span>
               </div>
             </div>
