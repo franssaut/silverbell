@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { MapPin, Navigation, ShoppingBag, GraduationCap, Store, Activity, Landmark, ExternalLink, QrCode } from 'lucide-react';
 import { STRATEGIC_LOCATIONS, PROJECT_DETAILS } from '../data/projectData';
 
 export default function LocationSection() {
-  const [activeTab, setActiveTab] = useState('map'); // 'map' | 'access'
-
   const iconMap = {
     Navigation: <Navigation className="w-5 h-5 text-gold-500" />,
     ShoppingBag: <ShoppingBag className="w-5 h-5 text-emerald-500" />,
@@ -36,42 +34,13 @@ export default function LocationSection() {
           
           {/* Visual Map Card (Col 7) */}
           <div className="lg:col-span-7 space-y-4">
-            
-            {/* Tab switch for map graphics */}
-            <div className="flex items-center gap-2 p-1 bg-white rounded-xl border border-slate-300 w-fit">
-              <button
-                onClick={() => setActiveTab('map')}
-                className={`px-4 py-1.5 rounded-lg text-xs font-bold transition ${
-                  activeTab === 'map' ? 'bg-slate-900 text-gold-400 shadow' : 'text-slate-600 hover:text-slate-900'
-                }`}
-              >
-                Peta Denah Lokasi
-              </button>
-              <button
-                onClick={() => setActiveTab('access')}
-                className={`px-4 py-1.5 rounded-lg text-xs font-bold transition ${
-                  activeTab === 'access' ? 'bg-slate-900 text-gold-400 shadow' : 'text-slate-600 hover:text-slate-900'
-                }`}
-              >
-                Grafik Aksesibilitas Menit
-              </button>
-            </div>
-
             <div className="bg-white p-4 sm:p-6 rounded-3xl border border-slate-300 shadow-xl overflow-hidden relative group">
               <div className="rounded-2xl overflow-hidden bg-slate-950 flex items-center justify-center min-h-[360px] sm:min-h-[420px]">
-                {activeTab === 'map' ? (
-                  <img
-                    src="/images/denah-lokasi.jpg"
-                    alt="Denah Lokasi Cluster Silverbell Batam"
-                    className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                ) : (
-                  <img
-                    src="/images/IMG-20260930-WA0009.jpg"
-                    alt="Waktu Tempuh Fasilitas Umum Cluster Silverbell"
-                    className="w-full h-auto max-h-[460px] object-contain group-hover:scale-105 transition-transform duration-500"
-                  />
-                )}
+                <img
+                  src="/images/denah-lokasi.jpg"
+                  alt="Denah Lokasi Cluster Silverbell Batam"
+                  className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
+                />
               </div>
 
               {/* Bottom Quick Map Details */}
