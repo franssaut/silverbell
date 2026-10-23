@@ -3,6 +3,17 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
+# Explicit search bot directives
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /images/
+
+User-agent: Bingbot
+Allow: /
+
 # Host & Sitemap
-Host: https://silverbell-lyart.vercel.app
+Host: https://www.silverbellcipta.web.id
+Sitemap: https://www.silverbellcipta.web.id/sitemap.xml
 Sitemap: https://silverbell-lyart.vercel.app/sitemap.xml

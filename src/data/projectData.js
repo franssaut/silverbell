@@ -2,6 +2,7 @@ export const PROJECT_DETAILS = {
   name: "Cluster Silverbell",
   tagline: "The Art of Modern Living",
   subTagline: "Your future starts here",
+  websiteUrl: "https://www.silverbellcipta.web.id",
   developer: "CIPTA Group",
   developerUrl: "https://www.ciptagroup.co.id",
   developerInstagram: "@ciptagroup.id",
