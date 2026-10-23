@@ -39,8 +39,10 @@ export default function Navbar() {
             <div className="h-10 sm:h-12 w-auto flex items-center">
               <img
                 src="/images/cluster-silverbell-logo.png"
-                alt="Cluster Silverbell Logo"
+                alt="Logo Cluster Silverbell Batam - Hunian Modern by CIPTA Group"
                 className="h-9 sm:h-11 w-auto object-contain drop-shadow"
+                width="160"
+                height="44"
               />
             </div>
             <div className="hidden sm:block border-l border-slate-700/60 pl-3">

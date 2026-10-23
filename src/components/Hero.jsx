@@ -30,7 +30,7 @@ export default function Hero({ onOpenVideoModal, onScrollToBooking }) {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.15]">
               <span className="block font-serif text-slate-100 italic">The Art of Modern Living</span>
               <span className="block bg-gradient-to-r from-gold-300 via-gold-400 to-amber-200 bg-clip-text text-transparent mt-1">
-                Cluster Silverbell
+                Cluster Silverbell Batam
               </span>
             </h1>
 
