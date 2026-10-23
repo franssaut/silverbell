@@ -86,8 +86,8 @@ export default function Footer() {
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-gold-400 shrink-0 mt-0.5" />
                 <div>
-                  <span>22G2+7VC, Tembesi, Kec. Sagulung, Kota Batam 29472.</span>
-                  <span className="block text-[10px] text-slate-400 font-mono mt-0.5">1°01'32.5"N 104°00'07.7"E</span>
+                  <span>22F2+PX, Tembesi, Kec. Sagulung, Kota Batam 29472.</span>
+                  <span className="block text-[10px] text-slate-400 font-mono mt-0.5">1.024326, 104.002427 (1°01'27.6"N 104°00'08.7"E)</span>
                 </div>
               </div>
               <div className="flex items-center gap-2.5">

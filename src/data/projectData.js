@@ -5,12 +5,12 @@ export const PROJECT_DETAILS = {
   developer: "CIPTA Group",
   developerUrl: "https://www.ciptagroup.co.id",
   developerInstagram: "@ciptagroup.id",
-  location: "22G2+7VC, Tembesi, Kec. Sagulung, Kota Batam, Kepulauan Riau 29472",
-  plusCode: "22G2+7VC",
-  coordinatesDMS: "1°01'32.5\"N 104°00'07.7\"E",
+  location: "22F2+PX, Tembesi, Kec. Sagulung, Kota Batam, Kepulauan Riau 29472",
+  plusCode: "22F2+PX",
+  coordinatesDMS: "1°01'27.6\"N 104°00'08.7\"E",
   coordinates: {
-    lat: 1.025694,
-    lng: 104.002139
+    lat: 1.024326,
+    lng: 104.002427
   },
   startingPrice: 200000000,
   formattedStartingPrice: "Rp 200 Jutaan",
@@ -27,7 +27,7 @@ export const PROJECT_DETAILS = {
   formattedPhone: "+62 823-9105-9216",
   marketingName: "Frans (Rumah Batam)",
   whatsappDefaultMsg: "Halo Mas Frans (Rumah Batam), saya tertarik dengan informasi unit Cluster Silverbell, promo gratis AJB/SHGB/BPHTB, dan jadwal survey lokasi.",
-  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=1%C2%B001%2732.5%22N+104%C2%B000%2707.7%22E"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=1.024326,104.002427"
 };
 
 export const UNIT_TYPES = [
