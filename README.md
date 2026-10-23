@@ -2,6 +2,9 @@
 
 Website Landing Page modern, responsif, dan interaktif untuk **Cluster Silverbell** — Perumahan Minimalis Modern di Tembesi Barelang, Kota Batam persembahan **PT CIPTA GROUP**.
 
+- 🌐 **Live Website (Vercel):** [https://silverbell-lyart.vercel.app](https://silverbell-lyart.vercel.app)
+- 🐙 **GitHub Repository:** [https://github.com/franssaut/silverbell](https://github.com/franssaut/silverbell)
+
 Dibuat berdasarkan proyek Stitch: **Cluster Silverbell Landing Page** (ID: `8926230195477070400`).
 
 ---

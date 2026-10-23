@@ -26,3 +26,5 @@ dist-ssr
 # Temporary / Scratch
 scratch
 .system_generated
+
+.vercel
