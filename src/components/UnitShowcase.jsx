@@ -264,7 +264,7 @@ export default function UnitShowcase({ onSelectUnitForBooking }) {
               <div className="pt-6 space-y-2.5 border-t border-slate-100 mt-6">
                 <a
                   href={`https://wa.me/${PROJECT_DETAILS.whatsappNumber}?text=${encodeURIComponent(
-                    `Halo Marketing Cluster Silverbell, saya ingin info ketersediaan unit ${activeUnit.name} (${activeUnit.price}) dan simulasi KPR-nya.`
+                    `Halo Mas Frans (Rumah Batam), saya ingin info ketersediaan unit ${activeUnit.name} (${activeUnit.price}), promo gratis AJB/SHGB/BPHTB, dan jadwal survey lokasi.`
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"

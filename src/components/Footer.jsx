@@ -90,12 +90,14 @@ export default function Footer() {
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-emerald-400 shrink-0" />
                 <a
-                  href={`https://wa.me/${PROJECT_DETAILS.whatsappNumber}`}
+                  href={`https://wa.me/${PROJECT_DETAILS.whatsappNumber}?text=${encodeURIComponent(
+                    PROJECT_DETAILS.whatsappDefaultMsg
+                  )}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-emerald-400 transition"
                 >
-                  +62 812-7000-1234 (WhatsApp Marketing)
+                  +62 823-9105-9216 (Frans - Rumah Batam)
                 </a>
               </div>
               <div className="flex items-center gap-2.5">

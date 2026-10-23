@@ -33,7 +33,7 @@ export default function MortgageCalculator() {
   };
 
   const generateWhatsAppKprMessage = () => {
-    return `Halo Marketing Cluster Silverbell, saya sudah menghitung simulasi KPR di website dengan rincian:
+    return `Halo Mas Frans (Rumah Batam) - Cluster Silverbell, saya sudah menghitung estimasi di website dengan rincian:
 - Harga Properti: ${formatRupiah(propertyPrice)}
 - DP (${dpPercent}%): ${formatRupiah(dpAmount)}
 - Tenor: ${tenorYears} Tahun

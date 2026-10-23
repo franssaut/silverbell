@@ -27,7 +27,7 @@ export default function BookingForm({ preselectedUnit }) {
     e.preventDefault();
     
     // Create WhatsApp message
-    const waMessage = `Halo Marketing Cluster Silverbell, saya ingin menjadwalkan survey lokasi dengan rincian berikut:
+    const waMessage = `Halo Mas Frans (Rumah Batam) - Cluster Silverbell, saya ingin menjadwalkan survey lokasi dengan rincian berikut:
 - Nama: ${formData.name}
 - No. WhatsApp: ${formData.phone}
 - Minat Tipe Unit: ${formData.unitType}
@@ -35,7 +35,7 @@ export default function BookingForm({ preselectedUnit }) {
 - Waktu Kunjungan: ${formData.surveyTime}
 ${formData.notes ? `- Catatan: ${formData.notes}` : ''}
 
-Mohon konfirmasi ketersediaan tim marketing untuk mendampingi di lokasi. Terima kasih.`;
+Mohon info konfirmasi ketersediaan Mas Frans untuk mendampingi di lokasi Cluster Silverbell. Terima kasih.`;
 
     const waUrl = `https://wa.me/${PROJECT_DETAILS.whatsappNumber}?text=${encodeURIComponent(waMessage)}`;
     
@@ -63,7 +63,7 @@ Mohon konfirmasi ketersediaan tim marketing untuk mendampingi di lokasi. Terima 
               Kunjungi Langsung Lokasi Cluster Silverbell
             </h2>
             <p className="text-slate-400 text-xs sm:text-sm leading-relaxed">
-              Tim marketing CIPTA Group siap menyambut dan mendampingi Anda melihat langsung rumah contoh, spesifikasi material, dan lingkungan perumahan.
+              Frans (Rumah Batam) siap menyambut dan mendampingi Anda melihat langsung rumah contoh, denah lokasi, dan promo terbaik di perumahan.
             </p>
           </div>
 

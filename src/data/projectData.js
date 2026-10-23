@@ -16,8 +16,11 @@ export const PROJECT_DETAILS = {
     "Carport & Kanopi Modern Sudah Termasuk",
     "Pilihan Fleksibel 2 Kamar atau 3 Kamar Tidur"
   ],
-  whatsappNumber: "6281270001234", // Marketing representative
-  whatsappDefaultMsg: "Halo Marketing Cluster Silverbell, saya tertarik dengan informasi unit, promo gratis AJB/SHGB/BPHTB, dan jadwal survey lokasi.",
+  whatsappNumber: "6282391059216", // Frans (Rumah Batam)
+  contactPhone: "082391059216",
+  formattedPhone: "+62 823-9105-9216",
+  marketingName: "Frans (Rumah Batam)",
+  whatsappDefaultMsg: "Halo Mas Frans (Rumah Batam), saya tertarik dengan informasi unit Cluster Silverbell, promo gratis AJB/SHGB/BPHTB, dan jadwal survey lokasi.",
   googleMapsUrl: "https://maps.google.com/?q=Cluster+Silverbell+Tembesi+Batam"
 };
 

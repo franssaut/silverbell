@@ -28,11 +28,11 @@ export default function FloatingWhatsApp() {
           
           <div className="flex items-center gap-1.5 text-emerald-600 font-bold mb-1">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-            <span>Marketing Cluster Silverbell</span>
+            <span>Frans (Rumah Batam) - Cluster Silverbell</span>
           </div>
 
           <p className="text-slate-600 leading-snug">
-            Halo! Dapatkan promo <strong className="text-brand-900">Gratis AJB, SHGB & BPHTB</strong> serta info sisa unit hari ini. Chat kami yuk!
+            Halo! Saya <strong>Frans</strong> siap membantu info promo <strong className="text-brand-900">Gratis AJB, SHGB & BPHTB</strong> serta cek unit tersedia. Hubungi via WA yuk!
           </p>
 
           {/* Little arrow */}

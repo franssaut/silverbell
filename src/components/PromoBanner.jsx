@@ -84,7 +84,7 @@ export default function PromoBanner() {
               </div>
               <a
                 href={`https://wa.me/${PROJECT_DETAILS.whatsappNumber}?text=${encodeURIComponent(
-                  "Halo Marketing Cluster Silverbell, saya ingin mengklaim Promo Gratis Biaya AJB, SHGB, BPHTB untuk unit Silverbell. Mohon informasi syarat dan sisa kuota unitnya."
+                  "Halo Mas Frans (Rumah Batam), saya ingin mengklaim Promo Gratis Biaya AJB, SHGB, BPHTB untuk unit Cluster Silverbell. Mohon informasi syarat dan sisa kuota unitnya."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"

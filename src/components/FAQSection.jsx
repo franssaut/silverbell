@@ -67,19 +67,19 @@ export default function FAQSection() {
               Punya Pertanyaan Spesifik Lainnya?
             </h4>
             <p className="text-xs text-slate-300">
-              Konsultan properti kami siap membantu menjawab pertanyaan Anda kapan saja tanpa dipungut biaya.
+              Frans (Rumah Batam) siap membantu menjawab pertanyaan Anda seputar unit, legalitas, promo, dan survey lokasi.
             </p>
           </div>
           <a
             href={`https://wa.me/${PROJECT_DETAILS.whatsappNumber}?text=${encodeURIComponent(
-              "Halo Admin Cluster Silverbell, saya ingin menanyakan beberapa hal mengenai perumahan Silverbell..."
+              "Halo Mas Frans (Rumah Batam), saya ingin menanyakan beberapa hal mengenai perumahan Cluster Silverbell..."
             )}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs shrink-0 transition shadow"
           >
             <MessageCircle className="w-4 h-4" />
-            <span>Chat Langsung ke WhatsApp</span>
+            <span>Chat Frans via WhatsApp</span>
           </a>
         </div>
 

@@ -85,10 +85,11 @@ export default function Navbar() {
               )}`}
               target="_blank"
               rel="noopener noreferrer"
+              title="Hubungi Frans (Rumah Batam) - 082391059216"
               className="inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold rounded-lg text-slate-950 bg-gradient-to-r from-gold-300 via-gold-400 to-gold-500 hover:from-gold-400 hover:to-gold-600 shadow-md hover:shadow-gold-500/20 transition-all font-sans tracking-wide"
             >
               <PhoneCall className="w-3.5 h-3.5" />
-              <span>Hubungi Marketing</span>
+              <span>Hubungi Frans</span>
             </a>
           </div>
 
@@ -149,7 +150,7 @@ export default function Navbar() {
               className="w-full flex items-center justify-center gap-2 py-2.5 text-sm font-semibold rounded-lg text-slate-950 bg-gradient-to-r from-gold-300 to-gold-500 font-bold"
             >
               <PhoneCall className="w-4 h-4" />
-              Chat WhatsApp Marketing
+              Chat Frans (Rumah Batam)
             </a>
           </div>
         </div>
